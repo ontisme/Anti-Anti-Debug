@@ -21,7 +21,18 @@
             ]
         }
     ],
-    "permissions": [],
+    "permissions": ["storage"],
+    "action": {
+        "default_icon": {
+            "16": "debug-16.png",
+            "48": "debug-48.png",
+            "128": "debug-128.png"
+        },
+        "default_title": "Anti Anti Debug (Click to toggle)"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
     "web_accessible_resources": [
         {
             "resources": [
